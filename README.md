@@ -88,7 +88,7 @@ git clone https://github.com/SylviaMalala/mobile_banking_CLI.git
 cd mobile_banking_CLI
 ```
 
-2. Create a virtual environment (recommended):
+1. Create a virtual environment (recommended):
 
 ```bash
 python3 -m venv .venv
@@ -97,13 +97,13 @@ source .venv/bin/activate  # On Linux/Mac
 .venv\Scripts\activate  # On Windows
 ```
 
-3. Install dependencies:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+1. Run the application:
 
 ```bash
 python app.py

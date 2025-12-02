@@ -40,13 +40,13 @@ git clone https://github.com/YOUR-USERNAME/mobile_banking_CLI.git
 cd mobile_banking_CLI
 ```
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+1. Run the application:
 
 ```bash
 python app.py
