@@ -97,8 +97,10 @@ pip install sqlalchemy
 3. Run the application:
 
 ```bash
-python app.py
+python3 app.py
 ```
+
+**Note**: Use `python3` on Linux/Mac or `python` on Windows if Python 3 is your default.
 
 ## Usage
 
