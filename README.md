@@ -88,19 +88,28 @@ git clone https://github.com/SylviaMalala/mobile_banking_CLI.git
 cd mobile_banking_CLI
 ```
 
-2. Install dependencies:
+2. Create a virtual environment (recommended):
 
 ```bash
-pip install sqlalchemy
+python3 -m venv .venv
+source .venv/bin/activate  # On Linux/Mac
+# OR
+.venv\Scripts\activate  # On Windows
 ```
 
-3. Run the application:
+3. Install dependencies:
 
 ```bash
-python3 app.py
+pip install -r requirements.txt
 ```
 
-**Note**: Use `python3` on Linux/Mac or `python` on Windows if Python 3 is your default.
+4. Run the application:
+
+```bash
+python app.py
+```
+
+**Note**: If using a virtual environment, make sure it's activated before running the app.
 
 ## Usage
 
