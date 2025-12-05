@@ -35,7 +35,7 @@ def create_user_menu():
     email = input("Email: ")
     password = getpass.getpass("Password: ")
     full_name = input("Full Name (optional): ")
-
+    phone = input("Phone (optional): ")
     with Session() as session:
         existing_user = session.query(User).filter_by(email=email).first()
         if existing_user:
@@ -45,6 +45,7 @@ def create_user_menu():
         user = User(
             id=gen_uuid(),
             email=email,
+            phone=phone,
             hashed_password=password,
             full_name=full_name
         )
